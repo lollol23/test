@@ -1,0 +1,161 @@
+/*header*/
+header {display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        background-color: #2C2C32;
+        color: white;}
+
+.mainLogo {
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: d-flex;}
+
+#mainLogoIcon {width: 50px; height: 50px;}
+
+#mainLogoH {text-decoration: none;}
+
+.small-link {
+    color: gray;
+}
+
+.nav-item :hover {
+    color: white;
+}
+
+.btn {
+    background-color: #0066B8;
+    color: white;
+}
+/*section*/
+section {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.updateBar {
+    display: flex;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainSection {
+    display: flex;
+    height: 650px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:#2C2C32;
+}
+
+.mainSectionLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    align-items: start;
+    color: white;
+    margin-right: 10px;
+}
+
+.mainSectionLeftBtnBox {
+    display: flex;
+}
+
+.btn-primary {
+    height: 60px;
+}
+
+.bi-arrow-down {
+    color: white;
+    font-size: 20px;
+}
+
+.mainSectionRight {
+    display: flex;
+    height: 550px;
+    color: white;
+}
+
+/*bookmarkbar*/
+
+.bookMarkBar {
+    display: flex;
+    width: 100%;
+    height: 160px;
+    justify-content: center;
+}
+
+.bookmarkBarInner {
+    display: flex;
+    width: 1100px;
+}
+ .box1 {
+    width: 25%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box1:hover {
+    background-color: #E3E3E3;
+ }
+
+ .bookmarkBarInnerTumbnail {
+    width: 55%;
+    height: 55%;
+ }
+
+/*article*/
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1200px;
+}
+
+.articleForm {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 300px;
+}
+
+.articleFormSpanBox {
+    width: 60%;
+    height: 100%;
+}
+
+.articleFormImgBox {
+    width: 30%;
+    height: 100%;
+}
+.articleFormImg {
+    width: 100%;
+    height: 100%;
+}
+
+/*footer*/
+
+.licenseBox {
+    width: 100%;
+    height: 200px;
+    background-color: #E3E3E3;
+    text-align: center;
+    font-size: small;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #2C2C32;
+    color: white;
+}
